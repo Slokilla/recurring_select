@@ -1,0 +1,10 @@
+sudo: false
+language: ruby
+script: bundle exec rspec spec
+rvm:
+  - 2.2.0
+  - 2.5.1
+gemfile:
+  - spec/gemfiles/Gemfile.rails-4.2.x
+notifications:
+  email: false
