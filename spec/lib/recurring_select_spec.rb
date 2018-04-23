@@ -46,5 +46,4 @@ describe RecurringSelect do
       })
     end
   end
-
 end
